@@ -1,0 +1,29 @@
+
+
+h1 {
+    color:white;
+}
+#compose{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+#search{
+    margin-top: .75rem;
+}
+
+@media (max-width: 768px) {
+    .btn-responsive {
+      padding:1px 2px;
+      font-size:80%;
+      line-height: 1;
+      border-radius:3px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .btn-responsive {
+      padding:3px 5px;
+      font-size:90%;
+      line-height: 1.2;
+    }
+  }
