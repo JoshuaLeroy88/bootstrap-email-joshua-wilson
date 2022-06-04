@@ -1,29 +1,21 @@
 
 
-h1 {
+h3 {
     color:white;
+    margin: .25rem .25rem .25rem .25rem;
+    padding: .25rem .25rem .25rem .25rem;
 }
-#compose{
-    margin-right: .5rem;
-    margin-left: .5rem;
+.date-time{ float: right;
+    font-style: italic;
 }
-#search{
-    margin-top: .75rem;
-}
+.selected{
+    box-shadow: 5px 5px #599dff;
 
-@media (max-width: 768px) {
-    .btn-responsive {
-      padding:1px 2px;
-      font-size:80%;
-      line-height: 1;
-      border-radius:3px;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 992px) {
-    .btn-responsive {
-      padding:3px 5px;
-      font-size:90%;
-      line-height: 1.2;
-    }
-  }
+}
+.icons{
+    margin-bottom: 20px;
+    
+}
+.bi{
+    color:antiquewhite
+}

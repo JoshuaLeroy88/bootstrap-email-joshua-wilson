@@ -9,95 +9,133 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid h-100">
-        <div class="row">
-            <div class="col-sm-2">
-               
-                   
-                    <nav class="nav flex-column bg-dark sticky-md-top">
-                        <div class="align-self-lg-center  p-3">
-                            
-                               <h1>Welcome User</h1>
-                            
-                            
-                        
-                            <button type="button" id="compose" class="btn btn-info btn-responsive  rounded-pill flex-fill">Compose</button>
-                        </div>
-                        
+  <div class="container mt-1 w-100 h-100">
 
-                            <a class="nav-link active " aria-current="page" href="#">Active</a>
-                            <a class="nav-link" href="#">Link</a>
-                            <a class="nav-link" href="#">Link</a>
-                            <a class="nav-link href="#">Link</a>
-                        
+    <div class="row">
+
+      <div class="col-sm-2 bg-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="m3 7.5 3.5 2L8 8.75l1.5.75 3.5-2v-6A1.5 1.5 0 0 0 11.5 0h-7A1.5 1.5 0 0 0 3 1.5v6ZM2 3.133l-.941.502A2 2 0 0 0 0 5.4v.313l2 1.173V3.133Zm12 3.753 2-1.173V5.4a2 2 0 0 0-1.059-1.765L14 3.133v3.753Zm-3.693 3.324L16 6.873v6.5l-5.693-3.163Zm5.634 4.274L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM5.693 10.21 0 13.372v-6.5l5.693 3.338ZM8 1.982C9.664.309 13.825 3.236 8 7 2.175 3.236 6.336.31 8 1.982Z"/>
+        </svg>
+        
+        
+        <h3 class="align-baseline">Welcome, Joshua</h3>
+        <div class="d-flex" style="height: 50px;">
+          <div class="vr"></div>
+        </div>
+        <button type="button" class="btn btn-primary m-1 mb-5">Compose</button>
 
 
-                    </nav>
-                    
-                        
-                            
-                        
-
-                        
-                   
+        
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Drafts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sent</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Favorites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Spam</a>
+                </li>
+                <li class="nav-item mt-5">
+                  <a class="nav-link" href="#">Trash</a>
+                </li>
+              </ul>
               
               
-            </div>
-            <div class="col-sm-4 bg-light">
-                <form id="search" class="d-flex mb-5" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                  <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small>3 days ago</small>
-                      </div>
-                      <p class="mb-1">Some placeholder content in a paragraph.</p>
-                      <small>And some small print.</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                      </div>
-                      <p class="mb-1">Some placeholder content in a paragraph.</p>
-                      <small class="text-muted">And some muted small print.</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                      </div>
-                      <p class="mb-1">Some placeholder content in a paragraph.</p>
-                      <small class="text-muted">And some muted small print.</small>
-                    </a>
-                  </div>
+                
+      </div>
+
+      <div class="col-sm-4 bg-light">
+
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Emails" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+
+        <div class="card mt-5 mb-3 ">
+          <div class="card-body">
+            <span class="date-time">April 5, 2022</span>
+            <h6>Important Dinner </h6>
+            <p> The specail Tri-tip dinner is this weekend!</p>
             
-            </div>
-            <div class="col-sm-6">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                    <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                  </div>
-                  
-                  <div class="input-group input-group-lg">
-                    <span class="input-group-text">With textarea</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                  </div>
-                
-                
-                <div>
-                    
-                </div>
-                
-            
-            </div>
           </div>
         </div>
+        <div class="card mb-4 selected">
+          <div class="card-body">
+            <span class="date-time">April 5, 2022</span>
+            <h6>Family BBQ! </h6>
+            
+            <p> We're having a BBQ!</p>
+            
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <span class="date-time">April 5, 2022</span>
+            <h6>Class Assignment</h6>
+            <p>hello Josh,<br>
+              you have a very important assignment due.
+            
+            </p>
+            
+          </div>
+        </div>
+
+
+  
+        
+      </div>
+
+      <div class="col-sm-6 p-2">
+        <p class="m-0">To: Josh</p>
+        <p class="mb-5">From:Chianne</p>
+        <h2>Family BBQ!</h2>
+        <div class="mb-4 icons">
+
+        <button class="btn btn-secondary float-end pt-0 pb-0 px-1 " type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+          <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+          <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+        </svg>
+        </button>
+        <button class="btn btn-secondary float-end p-sm-1 mx-1" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply float-end" viewBox="0 0 16 16">
+          <path d="M6.598 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L7.3 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L2.614 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.499.499 0 0 0 .042-.028l3.984-2.933zM7.8 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"/>
+        </svg>
+        </button>
+        <button class="btn btn-secondary float-end p-sm-1 " type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots float-end" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg>
+        </button>
+        
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi porro soluta sunt, maxime ex, excepturi quas placeat reiciendis debitis consequuntur quae magni at et eaque! Nemo, veritatis. Expedita, assumenda ex.</p>
+        <label for="exampleFormControlTextarea1" class="form-label mt-5">Reply</label>
+        <textarea name="comment" class="w-100 h-25 comment mt-1"></textarea>
+        <button type="button" class="btn btn-primary m-1 float-end">Reply</button>
+        </div>
+
+        
+
+
+
+
+        
+      </div>
     </div>
+  </div>
+    
+
+    
+    
+
 
 
 
